@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1B1F31, #2D3E6C, #3A4B8A, #3B4A73);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            padding: 20px;
+            overflow-x: hidden; /* Prevents horizontal scrolling */
+        }
+
+        h2 {
+            text-align: center;
+             color: #E3E7E9;
+            margin-bottom: 20px;
+            font-size: 2.2em;
+        }
+
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+             box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3), 0px 5px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            font-size: 1em;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        th {
+            background-color: #003366; /* Dark blue header background */
+            color: #ffffff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        td {
+            background-color: #f0f4f8;
+            color: #333333;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        @media (max-width: 768px) {
+            table {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            th, td {
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            table {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Details</h2>
+    <table>
+        <tr>
+            <th>Admin No</th>
+            <td>2024-001</td>
+        </tr>
+        <tr>
+            <th>Roll Number</th>
+            <td>10234</td>
+        </tr>
+        <tr>
+            <th>Student Name</th>
+            <td>John Doe</td>
+        </tr>
+        <tr>
+            <th>Mobile Number</th>
+            <td>9876543210</td>
+        </tr>
+        <tr>
+            <th>Parent's Name</th>
+            <td>Jane and Robert Doe</td>
+        </tr>
+        <tr>
+            <th>Aadhaar Number</th>
+            <td>1234-5678-9101</td>
+        </tr>
+        <tr>
+            <th>Blood Group</th>
+            <td>O+</td>
+        </tr>
+        <tr>
+            <th>Intermediate Percent</th>
+            <td>92%</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td>123 Main St, Cityville</td>
+        </tr>
+    </table>
+</body>
+</html>
